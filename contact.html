@@ -24,21 +24,40 @@
         </ul>
       </nav>
     </header>
-    <!-- Home Page -->
-    <section id="home">
-      <h2>Introduction</h2>
-      <p>
-        Welcome to our website dedicated to a healthy lifestyle. Explore tips on
-        fitness, nutrition, and mental well-being.
-      </p>
-      <button id="learn-more">Learn More</button>
+    <!-- Contact Page -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          placeholder="Your Name"
+        /><br />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          placeholder="Your Email"
+        /><br />
+
+        <label for="message">Message:</label>
+        <textarea
+          id="message"
+          name="message"
+          required
+          placeholder="Your Message"
+        ></textarea
+        ><br />
+
+        <button type="submit">Send</button>
+      </form>
+      <p id="form-message"></p>
     </section>
-    <figure>
-      <img src="healthy-living.jpg" alt="Healthy Living" />
-      <figcaption>
-        Healthy living is a combination of good food, exercise, and a positive
-        mindset.
-      </figcaption>
-    </figure>
   </body>
 </html>
