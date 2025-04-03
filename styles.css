@@ -1,23 +1,24 @@
-/* General Styles */
+/* General Styling */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f5f5f5;
+  background-color: #f4f4f4;
   color: #333;
-  text-align: center;
 }
 
-/* Header and Navigation */
 header {
-  background-color: #4caf50;
+  background-color: #28a745;
   color: white;
-  padding: 1rem;
+  padding: 15px;
+  text-align: center;
 }
 
 nav ul {
   list-style: none;
   padding: 0;
+  text-align: center;
+  background-color: #218838;
 }
 
 nav ul li {
@@ -28,83 +29,53 @@ nav ul li {
 nav ul li a {
   color: white;
   text-decoration: none;
-  font-weight: bold;
-}
-
-nav ul li a:hover {
-  text-decoration: underline;
+  font-size: 18px;
 }
 
 /* Sections */
 section {
-  background-color: white;
-  margin: 20px auto;
   padding: 20px;
-  width: 80%;
-  max-width: 800px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
+  text-align: center;
 }
 
-/* Button */
-button {
-  background-color: #4caf50;
-  color: white;
-  border: none;
-  padding: 10px 15px;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-button:hover {
-  background-color: #45a049;
-}
-
-/* Images */
-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-/* Gallery Grid */
+/* Grid Layout for Gallery */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 15px;
   padding: 20px;
 }
 
 .grid-item {
-  background-color: #e0e0e0;
-  padding: 20px;
-  border-radius: 8px;
-  font-weight: bold;
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Form */
+/* Form Styling */
 form {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  width: 50%;
+  margin: auto;
 }
 
 input,
 textarea {
-  width: 100%;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-textarea {
-  height: 100px;
-}
-
-footer {
-  margin-top: 20px;
+  margin: 10px 0;
   padding: 10px;
-  background-color: #4caf50;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #28a745;
   color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
 }
